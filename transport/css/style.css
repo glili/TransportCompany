@@ -1,5 +1,5 @@
 body{
-	padding: 0;
+	padding: 5px;
 	margin: 0;
 	font-family: 'Sintony', sans-serif;
 	background:#000000;
@@ -11,12 +11,13 @@ ul, li{
 }
 h1, h2, h3,h4 {
 	font-family: 'Playfair Display', serif;
-	font-weight: 700px;
+	font-weight: 700;
 	color:#ffffff;
 }
 p{
 	line-height: 1.6em ;/*ego i letter-spacing: v em*/
-	color: #ffffff;	
+	color: #ffffff;
+	font-weight: 700;
 }
 .menu{
 	margin-top: 10px;
@@ -25,7 +26,7 @@ p{
 	font-weight: 700;
 	font-size: 16px;
 	text-transform: uppercase;
-	margin:4px 2px 2px;
+	/*margin:4px 2px 2px;*/
 }
 header a{
 	color:#ffffff;
@@ -70,45 +71,24 @@ header i{
 	/*border-radius:15px;*/
 	box-shadow: 3px 3px #000066;
 }
-/*.main{
-	height: 90%;
-	width: 90%;
-	margin-left: -15px;
-}*/
+.main{
+	height: 100%;
+	width: 100%;
+}
 img{
 	max-width:100%;
 	height:auto;
 	object-fit: contain;
 }
-.title{
-	float:left;
-	top: 180px;
-	left: 100px;
-}
-.heading__title{
-	font-size: 70px;
-	color:#000000;
-}
-.title__descr{
-	font-family: 'Playfair Display', serif;
-	font-weight: 700px;
-	font-size:50px;
-	margin-top: 20px;
-}
-.title__descr span{
-	color: #000066;
-	font-size:60px;
-	margin-top: -20px;
-}
 .contact{
-	background: #000000;/*14141d*/
+	background: #000000;
 	border-bottom: 1px solid #dde3e7;
-	padding:30px 0;
-	margin:10px 32px;
+	padding:10px 0;
+	margin:10px;
 }
 i{
 	color: #ff9900;
-	margin-right: -1px;
+	margin-left:-1px;
 }
 .contact__info{
 	font-size:20px;
@@ -116,8 +96,7 @@ i{
 	font-family: Arial, sans-serif;
 	font-weight: 700;
 	width: 350px;
-	/*	display: block; esli strocnii ctob margin primenit
-*/}
+}
 .phone__number{
 	width: 300px;
 	margin-right: 5px;
@@ -127,6 +106,7 @@ i{
 .history__title, .service__title{
 	font-size:35px;
 	margin-bottom: 25px;
+	margin-top: 30px;
 }
 .history__text{
 	font-size:14px;
@@ -143,23 +123,29 @@ i{
 	margin-top: 48px;
 }
 .history__img{
-	margin-top:35px;
+	display: block;
+	margin:o auto;
+	padding-top:35px;
+
+}
+.service_type{
+	margin-top:10px;
 }
 .cargo__img{
 	text-align: center;
+	margin-top:20px;
 }
-.cargo__img p, h3{
-	padding:2px;
-	color:#ffffff;
-	font-weight: 700;
+.cargo__img h3{
+	padding:1px;
 }
 .cargo__img p{
 	font-size:18px;
+	margin-bottom: :20px;
 }
 .footer{
 	background: #000000;
 	color:#ffffff;
-	font-size:13px;
+	font-size:14px;
 	padding:10px;
 	border-top:1px solid #ffffff;
 }
@@ -169,7 +155,7 @@ footer .email, .phone__number{
 }
 footer a{
 	color:#ffffff;
-	font-size: 14px;
+	font-size: 16px;
 }
 footer a:hover{
 	color:#ffffff;
@@ -182,4 +168,7 @@ footer a:hover{
 	font-size:16px;
 	margin:5px;
 	color:#ffffff;
+}
+
+@media (max-width: 960px) {
 }
