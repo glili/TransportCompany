@@ -1,5 +1,5 @@
 body{
-	padding: 5px;
+	padding: 0;
 	margin: 0;
 	font-family: 'Sintony', sans-serif;
 	background:#000000;
@@ -8,6 +8,9 @@ ul, li{
 	display: block;
 	padding:0;
 	margin:0;
+}
+header, section{
+	padding:10px;
 }
 h1, h2, h3,h4 {
 	font-family: 'Playfair Display', serif;
