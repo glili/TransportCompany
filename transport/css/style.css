@@ -88,7 +88,6 @@ img{
 }
 i{
 	color: #ff9900;
-	margin-left:-1px;
 }
 .contact__info{
 	font-size:20px;
@@ -168,6 +167,7 @@ footer a:hover{
 	font-size:16px;
 	margin:5px;
 	color:#ffffff;
+	margin-left:-1px;
 }
 
 @media (max-width: 960px) {
