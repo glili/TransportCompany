@@ -1,11 +1,9 @@
-* {
-	outline: 1px solid red;
-}
 body{
 	padding: 0;
 	margin: 0;
 	font-family: 'Sintony', sans-serif;
 	background:#000000;
+	overflow-x: hidden;
 }
 ul, li{
 	display: block;
