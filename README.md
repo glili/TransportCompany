@@ -7,11 +7,13 @@ It has been tested with [Responsinator][responsinator] and it renders well on di
 This [site][site] was exposed via github pages.\
 Enjoy!
 
-graph TD
+``` mermaid
+flowchart TD
     A[Transport company] --> B((Home))
-    B -->  C((About))
-    B --> D((Services))
-    B --> E((Contacts))
+    A -->  C((About))
+    A --> D((Services))
+    A --> E((Contacts))
+```
 
 [responsinator]: http://www.responsinator.com/?url=glili.github.io%2FTransportCompany%2Ftransport%2Findex.html
 [site]: https://glili.github.io/TransportCompany/transport/index.html
